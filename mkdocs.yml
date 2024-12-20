@@ -1,0 +1,61 @@
+site_name: Muchen's log
+site_description: proudly presented by the little guy's mom and dad
+site_url: https://xiaochuany.github.io/mc/
+
+theme:
+  name: material
+  features:
+    # - navigation.tabs
+    - navigation.indexes
+    # - toc.integrate
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+  - blog:
+      blog_dir: .
+      blog_toc: true
+      archive_date_format: yyyy
+      categories_allowed:
+        - Tutorial
+        - Note
+        - TIL
+        - Essay
+      pagination_per_page: 5
+      post_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+          short: true
+  - tags:
+      tags_file: tags.md
+  - rss:
+      match_path: "posts/.*"
+      date_from_meta:
+        as_creation: date.created
+        as_update: date.updated
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# extra_javascript:
+#   - js/mathjax.js
+#   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+# nav:
+#   - index.md
+#   - tags.md
