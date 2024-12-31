@@ -29,7 +29,6 @@ plugins:
       blog_toc: true
       archive_date_format: yyyy
       categories_allowed:
-        - Tutorial
         - Note
         - TIL
         - Essay
