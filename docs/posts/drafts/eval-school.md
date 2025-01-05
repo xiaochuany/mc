@@ -16,7 +16,10 @@ date:
 !!! note "useful links"
 
     - MEN: https://men.public.lu/en.html
-    - https://portal.education.lu/fondamental/
-    - general info: https://www.vdl.lu/en/living/education-and-training/enrolling-your-child-school
-    - school catchment lookup: https://www.vdl.lu/en/living/education-and-training/enrolling-your-child-school/school-catchment-areas?street=245&number=16)
+    - portal (many linkssss): https://portal.education.lu/
+    - vdl info: https://www.vdl.lu/en/living/education-and-training/enrolling-your-child-school
+    - vdl school catchment lookup: https://www.vdl.lu/en/living/education-and-training/enrolling-your-child-school/school-catchment-areas?street=245&number=16)
     - parenting school: https://www.kannerschlass.lu/fr/eltereschoul/
+    - demographics: https://ssl.education.lu/wespe/
+    - statistics: https://www.edustat.lu/fr
+    - "epreuves communes": https://pfs.script.lu/epreuves/index.php
